@@ -1,0 +1,54 @@
+body {
+background:rgb(95, 156, 95);
+font-family: 'Caudex', serif;
+color: #444242;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.profile {
+    text-align: center;
+    margin-bottom: 30px;    
+
+}
+
+.foto-principal {
+    width: 150px;
+    border: 7px solid blue;
+    border-radius: 10% 100% 100% 10%;
+    margin: 30px 30px 0px 30px;
+    padding: 10px;
+    box-shadow: 14px 10px 25px white;
+}
+h1 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-family: 'El Messiri', sans-serif;
+    color: rgb(34, 33, 33);        
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: rgb(110, 107, 107);
+    font-weight: 100;
+    letter-spacing: -1px;
+/* */
+}
+
+.caixa {
+    background-color: black;
+}
+
+.social-links {
+    text-decoration: none;
+}
+.social-icons {
+    width: 40px;
+}
+.github {
+    margin: 0 15px 0 15px;
+}
+
+

@@ -1,0 +1,18 @@
+body {
+background:rgb(95, 156, 95) 
+
+}
+
+p {
+    color: #444242;
+}
+.foto-principal {
+    border: 7px solid blue; /* shorthand */
+    border-radius: 10% 100% 100% 10%;
+    
+    /* margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    margin-left: 50px; */    
+    margin: 50px 50px 80px 50px;
+}
