@@ -1,0 +1,33 @@
+
+::selection {
+    color: white;
+    background: green;
+}
+
+p::first-line {
+color: orange;
+}
+p::first-letter {
+    color: green;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJMQtDro9MIQ9Tped5sIVqqyW2oqSWcXMa6A&usqp=CAU);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+h1::after {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJMQtDro9MIQ9Tped5sIVqqyW2oqSWcXMa6A&usqp=CAU);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+    margin-left: 10px;
+}
